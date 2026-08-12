@@ -623,8 +623,29 @@ footer {
     }
 
     .menu-button {
-        display: flex;
-    }
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    background: transparent;
+    border: none;
+    z-index: 1000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 3px 0;
+    background: #fff;
+    border-radius: 2px;
+}
 
     nav {
         position: absolute;
@@ -965,6 +986,14 @@ footer {
 ===================== */
 
 @media (max-width: 800px) {
+
+    nav:not(#mobileNav) {
+        display: none;
+    }
+
+    .menu-button {
+        display: flex;
+    }
 
     nav#mobileNav {
         position: absolute;
