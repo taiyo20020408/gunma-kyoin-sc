@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -511,4 +512,519 @@
 </main>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>選手紹介 | 群馬教員SC</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: #070d16;
+            color: #ffffff;
+            font-family: Arial, "Noto Sans JP", sans-serif;
+        }
+
+        .players-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 70px 30px;
+        }
+
+        .page-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .page-title .en {
+            display: block;
+            color: #e5b52c;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 4px;
+            margin-bottom: 12px;
+        }
+
+        .page-title h1 {
+            margin: 0;
+            font-size: 42px;
+            font-weight: 800;
+        }
+
+        .page-title p {
+            color: #9da9bb;
+            margin-top: 15px;
+        }
+
+        .position-title {
+            font-size: 24px;
+            border-left: 4px solid #e5b52c;
+            padding-left: 15px;
+            margin: 50px 0 25px;
+        }
+
+        .players-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(180px, 1fr));
+    gap: 22px;
+    margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+    .players-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+        .player-card {
+            background: #0c1726;
+            border: 1px solid #17283d;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.25s;
+            cursor: pointer;
+        }
+
+        .player-card:hover {
+            transform: translateY(-5px);
+            border-color: #e5b52c;
+        }
+
+        .player-photo {
+            height: 280px;
+            background: #111c2b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6f7d91;
+            font-size: 18px;
+        }
+
+        .player-info {
+            padding: 20px;
+        }
+
+        .number {
+            color: #e5b52c;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .player-name {
+            font-size: 22px;
+            font-weight: 800;
+            margin-top: 8px;
+        }
+
+        .position {
+            color: #9da9bb;
+            margin-top: 7px;
+        }
+
+        @media (max-width: 900px) {
+            .players-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 600px) {
+            .players-page {
+                padding: 40px 18px;
+            }
+
+            .players-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .page-title h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<main class="players-page">
+
+    <div class="page-title">
+        <span class="en">群馬教員SC</span>
+        <h1>選手紹介</h1>
+        <p>PLAYERS</p>
+    </div>
+
+
+    <!-- GK -->
+    <h2 class="position-title">GOALKEEPER</h2>
+
+    <div class="players-grid">
+
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#1</div>
+            <div class="player-name">佐藤 大輝</div>
+            <div class="position">GK</div>
+        </div>
+    </div>
+
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#21</div>
+            <div class="player-name">山田 晃平</div>
+            <div class="position">GK</div>
+        </div>
+    </div>
+
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#36</div>
+            <div class="player-name">吉澤 正</div>
+            <div class="position">GK</div>
+        </div>
+    </div>
+
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#77</div>
+            <div class="player-name">高木 謙</div>
+            <div class="position">GK</div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+
+    <!-- DF -->
+<h2 class="position-title">DEFENDER</h2>
+
+<div class="players-grid">
+
+    <!-- DF 1 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#3</div>
+            <div class="player-name">川原 悠市</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 2 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#13</div>
+            <div class="player-name">高橋 悠雅</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 3 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#23</div>
+            <div class="player-name">関口 海</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 4 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#25</div>
+            <div class="player-name">藤井 怜央</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 5 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#26</div>
+            <div class="player-name">佐藤 哲</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 6 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#27</div>
+            <div class="player-name">伊藤 日向</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 7 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#29</div>
+            <div class="player-name">日高 大斗</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 8 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#34</div>
+            <div class="player-name">相川 哲平</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+    <!-- DF 9 -->
+    <div class="player-card">
+        <div class="player-photo">
+            選手写真
+        </div>
+        <div class="player-info">
+            <div class="number">#61</div>
+            <div class="player-name">長嶋 仁哉</div>
+            <div class="position">DF</div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+
+ 
+
+
+
+    <!-- MF -->
+<h2 class="position-title">MIDFIELDER</h2>
+
+<div class="players-grid">
+
+    <!-- MF 1 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#2</div>
+            <div class="player-name">神戸 亮彦</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 2 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#5</div>
+            <div class="player-name">齊藤 浩太</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 3 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#6</div>
+            <div class="player-name">高橋 駿</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 4 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#7</div>
+            <div class="player-name">高野 真史</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 5 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#8</div>
+            <div class="player-name">小野 真悟</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 6 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#14</div>
+            <div class="player-name">池田 稔樹</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 7 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#19</div>
+            <div class="player-name">安部 隼翔</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 8 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#20</div>
+            <div class="player-name">齋藤 新太郎</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 9 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#35</div>
+            <div class="player-name">小野 大我</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 10 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#41</div>
+            <div class="player-name">白石 直毅</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+    <!-- MF 11 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#74</div>
+            <div class="player-name">小林 莉生</div>
+            <div class="position">MF</div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+    <!-- FW -->
+<h2 class="position-title">FORWARD</h2>
+
+<div class="players-grid">
+
+    <!-- FW 1 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#4</div>
+            <div class="player-name">高石 隼人</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+    <!-- FW 2 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#9</div>
+            <div class="player-name">野村 聡太</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+    <!-- FW 3 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#10</div>
+            <div class="player-name">齋藤 裕介</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+    <!-- FW 4 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#12</div>
+            <div class="player-name">栗原 智彦</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+    <!-- FW 5 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#16</div>
+            <div class="player-name">小川 勇之助</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+    <!-- FW 6 -->
+    <div class="player-card">
+        <div class="player-photo">選手写真</div>
+        <div class="player-info">
+            <div class="number">#31</div>
+            <div class="player-name">杉山 太陽</div>
+            <div class="position">FW</div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</main>
+
+</body>
+>>>>>>> 89b18cbe57fe91f289c3c773a79194b8b8ec7b69
 </html>
