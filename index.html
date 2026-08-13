@@ -913,6 +913,24 @@ footer {
     header nav {
         display: none;
     }
+    
+    header.menu-open nav {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    background: #111114;
+    padding: 15px 0;
+    z-index: 9998;
+}
+
+header.menu-open nav a {
+    display: block;
+    padding: 15px 25px;
+    text-align: center;
+}
 }
 </style>
 </head>
@@ -1340,6 +1358,15 @@ footer {
     </div>
 
 </footer>
+
+<script>
+const menuButton = document.getElementById('menuButton');
+const header = document.querySelector('header');
+
+menuButton.addEventListener('click', function () {
+    header.classList.toggle('menu-open');
+});
+</script>
 
 </body>
 </html>
