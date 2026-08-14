@@ -499,8 +499,9 @@ section {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 10px;
+}
 }
 
 .gallery-item {
@@ -607,8 +608,8 @@ footer {
     }
 
     .gallery {
-        grid-template-columns: 1fr 1fr;
-    }
+    grid-template-columns: repeat(5, 1fr);
+}
 
     .news-item {
         grid-template-columns: 90px 70px 1fr;
@@ -626,9 +627,10 @@ footer {
 }
 
 @media (max-width: 500px) {
-
     .gallery {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
     }
 
     .hero h2 {
